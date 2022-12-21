@@ -1,0 +1,54 @@
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2em;
+    gap: 1em 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    
+    width: 50%;
+    height: 50%;
+    
+}
+
+@media (max-width: 767px) {
+    .grid-gallery{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        padding: 2em;
+        gap: 1em 1em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 300px;
+    }
+}
+
+@media (max-width: 992px) {
+    .grid-gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2em;
+        gap: 1em 1em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 300px;
+    }
+}

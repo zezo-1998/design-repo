@@ -1,0 +1,34 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    
+        
+        <div class = "kmom-sida">
+            {{content}}
+        </div>
+     
+
+
+    {# <article class="main" role="main">
+        <nav class="sidebar">
+            <ul class="sidebar-menu">
+                {% for page in pages("report") %}
+                    <li{% if page.id==current_page.id %} class="active" {% endif %}>
+                        <a href="{{ page.url }}">{{ page.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>
+
+
+        <div class="article-content">
+            {{ content }}
+        </div>
+    </article> #}
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

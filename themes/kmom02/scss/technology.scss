@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.kurserna_utan_grid {
+    display: grid;
+    grid-template-columns: 300px auto;
+    padding: 2em;
+    gap: 1em 1em;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.kurserna {
+    margin-top: 50px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;  
+    font-size: 30px;   
+    
+}
+
+
+.sidan {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+
+}
+
+.kurserna_pa_sidan {
+    margin: 24px;
+    font-size: 24px;
+}
+
+.kurserna_pa_sidan:hover {
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+
+.sidan {
+    padding: 24px;
+    flex-wrap: wrap;
+    margin: 24px;
+    width: 70%;
+}
+
+@media (max-width: 767px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        padding-bottom: 1em;
+    }
+
+    .nav ul li {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav ul li a {
+        display: block;
+        padding: 0.5em 0;
+    }
+
+    .js .nav-toggle {
+        display: block;
+        float: right;
+        width: 2em;
+        margin: 0.6667em 0;
+        font-size: 1.5rem;
+        line-height: 2em;
+        text-align: center;
+        cursor: pointer;
+    }
+}
+

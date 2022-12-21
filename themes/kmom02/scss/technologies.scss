@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.kmom-sida1 {
+    display: grid;
+    grid-template-columns: 30% 30% auto;
+    grid-template-rows: 150px 150px 150px 150px 150px;
+    padding: 2em;
+    gap: 2em 2em;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.css_kurs,
+.html_kurs,
+.javascript_kurs,
+.php_kurs,
+.git_kurs,
+.python_kurs,
+.sqlite_kurs:hover {
+    cursor: pointer;
+}
+
+
+
+.technologies_kurs {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-color: rgb(100, 147, 241);
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+
+
+.css_kurs {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    background-color:rgb(253, 135, 85);
+    text-align: center;
+}
+
+
+
+.html_kurs {
+    grid-column: 1/2; 
+    grid-row: 2/3;
+    text-align: center;
+    background-color: rgb(149, 240, 69);
+    color: black;
+}
+
+.javascript_kurs {
+    grid-column: 1/3;
+    grid-row: 5/6;
+    text-align: center;
+    background-color: violet;
+}
+
+.php_kurs {
+    grid-column: 3/4;
+    grid-row: 5/6;
+    text-align: center;
+    background-color: rgb(250, 190, 85);
+}
+
+.git_kurs {
+    grid-column: 1/4;
+    grid-row: 4/5;
+    text-align: center;
+    background-color: crimson;
+}
+
+.python_kurs {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-color: rgb(108, 237, 222);
+
+    text-align: center;
+}
+
+.sqlite_kurs {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    text-align: center;
+    background-color: rgb(148, 116, 236);
+}
+
+

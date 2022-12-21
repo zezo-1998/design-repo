@@ -1,0 +1,16 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+@import 'newstyle';
+@import 'technologies';
+@import 'technology';
+@import 'analysis';
+@import 'colors';
+@import 'gallery';
+@import 'header';
+@import 'footer';
+body {
+    background-color: #fff;
+}

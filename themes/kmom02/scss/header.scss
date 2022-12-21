@@ -1,0 +1,65 @@
+body {
+    background-color: #1f2730;
+    margin-bottom: 30rem;
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.title h1 {
+    font-size: 3rem;
+}
+
+.title h1:hover {
+    text-decoration: underline;
+}
+
+.nav {
+    font-size: $base-font-size;
+}
+
+.das {
+    padding: 0 100px;
+    background: url(../back1.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.sas h1 {
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #044463;
+}
+
+.sas {
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+
+}
+
+
+.sas1 {
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #044463;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+
+}
+
+.nav #nav ul li:hover a {
+    text-decoration: underline;
+}
